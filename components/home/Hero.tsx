@@ -36,6 +36,10 @@ export const Hero = () => {
                     alt="editor"
                 />
             </Box>
+            <Box position="absolute" w="60px" h="60px" borderRadius="50%" top="30%" right="15%" bg="brand.200" />
+            <Box position="absolute" w="70px" h="70px" borderRadius="50%" top="60%" right="10%" bg="brand.400" />
+            <Box position="absolute" w="55px" h="55px" borderRadius="50%" top="40%" left="15%" bg="brand.300" />
+            <Box position="absolute" w="45px" h="45px" borderRadius="50%" top="70%" left="5%" bg="brand.100" />
         </Box>
     );
 };

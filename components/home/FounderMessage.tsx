@@ -10,17 +10,17 @@ export const FounderMessage = () => {
         <Container maxW="container.xl" py="20" >
             <Flex alignItems="center">
                 <Box flex="0.6">
-                    <Box maxW="600px">
+                    <Box maxW="650px">
                         <Heading mb="5" fontWeight="semibold" color="black.100" fontSize="2xl" as="h3" >
                             Meet Your <Box as="span" color="brand.100">Founder</Box> & <Box as="span" color="brand.400">Mentor!</Box>
                         </Heading>
-                        <Text mb="4">
+                        <Text mb="4" fontSize="lg" >
                             “ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat. “
                         </Text>
-                        <Text>
+                        <Text fontSize="lg">
                             Wishing you all the best,
                         </Text>
-                        <Text fontWeight="medium">
+                        <Text fontWeight="medium" fontSize="lg">
                             Andi Usman Balo
                         </Text>
                     </Box>

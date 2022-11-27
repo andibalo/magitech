@@ -16,9 +16,18 @@ const outlinePrimaryBtnStyles = {
     borderColor: "primary.100",
 };
 
+const ghostPrimaryBtnStyles = {
+    backgroundColor: "none",
+    color: "brand.100",
+    _hover: {
+        backgroundColor: "gray.100"
+    }
+};
+
 const buttonSxMapper: any = {
     solid: primaryBtnStyles,
     outline: outlinePrimaryBtnStyles,
+    ghost: ghostPrimaryBtnStyles
 };
 
 interface ButtonProps extends ChakraButtonProps {

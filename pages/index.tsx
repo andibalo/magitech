@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Hero, LearningPath, TargetAudience, TechStack, WhyUs } from '../components/home'
-import styles from '../styles/Home.module.css'
+import { Footer } from '../components/commons'
+import { FounderMessage, Hero, LearningPath, TargetAudience, TechStack, WhyUs } from '../components/home'
 
 export default function Home() {
   return (
@@ -11,6 +11,8 @@ export default function Home() {
       <TargetAudience/>
       <WhyUs/>
       <LearningPath/>
+      <FounderMessage/>
+      <Footer/>
     </>
   )
 }

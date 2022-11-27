@@ -1,4 +1,5 @@
-import { Container, Tabs, TabList, TabPanels, Tab, TabPanel, Heading } from "@chakra-ui/react"
+import { Container, Tabs, TabList, TabPanels, Tab, TabPanel, Heading, Flex, Box, Text, Icon } from "@chakra-ui/react"
+import { Timeline } from "./Timeline"
 
 export const LearningPath = () => {
 
@@ -12,8 +13,8 @@ export const LearningPath = () => {
                     <Tab fontWeight="medium" _selected={{ color: 'brand.400', borderColor: 'brand.400' }}>Backend Developer</Tab>
                 </TabList>
                 <TabPanels>
-                    <TabPanel>
-                        <p>one!</p>
+                    <TabPanel pt="28">
+                        <Timeline/>
                     </TabPanel>
                     <TabPanel>
                         <p>two!</p>

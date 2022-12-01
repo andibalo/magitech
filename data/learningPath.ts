@@ -38,8 +38,8 @@ export const WEB_DEVELOPER_LEARNING_PATH: CourseInfo[] = [
     {
 
         title: "Basic Web Development",
-        totalHours: "16",
-        totalSessions: "8",
+        totalHours: "18",
+        totalSessions: "9",
         price: 1500000,
         description: `Siswa akan belajar best practices dan alur pengembangan website menggunakan HTML, CSS, Javascript, jQuery dan Boostrap.`,
         modules: [
@@ -56,7 +56,11 @@ export const WEB_DEVELOPER_LEARNING_PATH: CourseInfo[] = [
                 description: ""
             },
             {
-                title: "Project: Landing Page (HTML + CSS)",
+                title: "Introduction to Git",
+                description: ""
+            },
+            {
+                title: "Mini Project: Landing Page (HTML + CSS)",
                 description: ""
             },
             {
@@ -68,7 +72,53 @@ export const WEB_DEVELOPER_LEARNING_PATH: CourseInfo[] = [
                 description: ""
             },
             {
-                title: "Project: Company Profile (Boostrap + HTML + CSS + jQuery)",
+                title: "Final Project: Company Profile (Boostrap + HTML + CSS + jQuery)",
+                description: ""
+            },
+            {
+                title: "Final Project II: Company Profile (Boostrap + HTML + CSS + jQuery)",
+                description: ""
+            },
+        ]
+    },
+    {
+
+        title: "Basic React",
+        totalHours: "16",
+        totalSessions: "8",
+        price: 1500000,
+        description: `Siswa akan belajar best practices dan alur pengembangan website menggunakan HTML, CSS, Javascript, jQuery dan Boostrap.`,
+        modules: [
+            {
+                title: "Introduction To React",
+                description: ""
+            },
+            {
+                title: "CSS-in-JS & Chakra UI",
+                description: ""
+            },
+            {
+                title: "React Hooks",
+                description: ""
+            },
+            {
+                title: "React Hooks Continued",
+                description: ""
+            },
+            {
+                title: "React Router",
+                description: ""
+            },
+            {
+                title: "Axios & Promise/Async Await",
+                description: ""
+            },
+            {
+                title: "Final Project: Todo List",
+                description: ""
+            },
+            {
+                title: "Final Project II: Todo List",
                 description: ""
             },
         ]

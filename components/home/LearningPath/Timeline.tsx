@@ -12,6 +12,7 @@ export const Timeline = ({ data }: TimelineProps) => {
             {
                 data && data.length > 0 && data.map((dataItem, index) =>
                     <TimelineRow
+                        key={index + dataItem.price}
                         index={index}
                         data={dataItem}
                     />)

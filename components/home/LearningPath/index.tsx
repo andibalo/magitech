@@ -17,11 +17,11 @@ export const LearningPath = () => {
                     <TabPanel pt={{ base: "16", md: "28" }}>
                         <Timeline data={WEB_DEVELOPER_LEARNING_PATH} />
                     </TabPanel>
-                    <TabPanel>
-                        <p>two!</p>
+                    <TabPanel pt={{ base: "16", md: "28" }}>
+                        <Timeline data={WEB_DEVELOPER_LEARNING_PATH} />
                     </TabPanel>
-                    <TabPanel>
-                        <p>three!</p>
+                    <TabPanel pt={{ base: "16", md: "28" }}>
+                        <Timeline data={WEB_DEVELOPER_LEARNING_PATH} />
                     </TabPanel>
                 </TabPanels>
             </Tabs>

@@ -12,7 +12,7 @@ export const Faq = () => {
 
     return (
         <Container maxW="container.xl" py="20">
-            <Flex flexDirection={{ base: "column-reverse", md: "row" }}>
+            <Flex flexDirection={{ base: "column-reverse", md: "row" }} minH="400px">
                 <Box flex="0.4" pr={{ base: "0", md: "5" }}>
                     <Flex h="300px" bg="brand.500" borderRadius="xl" justifyContent="center" alignItems="center" >
                         <Box>
@@ -27,35 +27,82 @@ export const Faq = () => {
                     <Accordion allowToggle>
                         <AccordionItem>
                             <h2>
-                                <AccordionButton>
+                                <AccordionButton fontWeight="medium" _expanded={{ color: 'white', bg:"brand.100"}}>
                                     <Box flex='1' textAlign='left'>
-                                        Section 1 title
+                                        Saya tidak punya pengetahuan IT sama sekali, apakah saya bisa ikut serta ?
                                     </Box>
                                     <AccordionIcon />
                                 </AccordionButton>
                             </h2>
                             <AccordionPanel pb={4}>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                commodo consequat.
+                                Tentu saja, kamu akan di bimbing dari awal dari nol hingga kamu paham apa yang diajarkan di Magitech.
                             </AccordionPanel>
                         </AccordionItem>
 
                         <AccordionItem>
                             <h2>
-                                <AccordionButton>
+                                <AccordionButton fontWeight="medium" _expanded={{ color: 'white', bg:"brand.100"}}>
                                     <Box flex='1' textAlign='left'>
-                                        Section 2 title
+                                        Berapakah spek laptop yang baik untuk mengikuti kelas di Magitech ?
                                     </Box>
                                     <AccordionIcon />
                                 </AccordionButton>
                             </h2>
                             <AccordionPanel pb={4}>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                commodo consequat.
+                                Karena kita akan banyak praktek maka kamu sebaiknya memiliki laptop dengan minimal processor setara Core I3 dan RAM minimal 4 GB.
+                            </AccordionPanel>
+                        </AccordionItem>
+                        <AccordionItem>
+                            <h2>
+                                <AccordionButton fontWeight="medium" _expanded={{ color: 'white', bg:"brand.100"}}>
+                                    <Box flex='1' textAlign='left'>
+                                        Bagaimana sistem pembelajaran di Magitech?
+                                    </Box>
+                                    <AccordionIcon />
+                                </AccordionButton>
+                            </h2>
+                            <AccordionPanel pb={4}>
+                                Kami akan mengadakan kelas via Zoom Meeting dan semua akan di record agar nantinya bisa kamu ulangi lagi.
+                                Kelas berlangsung selama 2 jam dan setelah kelas kamu akan mendapatkan sesi 1-on-1 mentoring 1 jam gratis untuk bertanya tentang materi atau hal lain.
+                            </AccordionPanel>
+                        </AccordionItem>
+                        <AccordionItem>
+                            <h2>
+                                <AccordionButton fontWeight="medium" _expanded={{ color: 'white', bg:"brand.100"}}>
+                                    <Box flex='1' textAlign='left'>
+                                        Berapa kali dalam seminggu kelas diadakan?
+                                    </Box>
+                                    <AccordionIcon />
+                                </AccordionButton>
+                            </h2>
+                            <AccordionPanel pb={4}>
+                                Kamu bisa mengambil 1x atau 2x sesi kelas dalam seminggu.
+                            </AccordionPanel>
+                        </AccordionItem>
+                        <AccordionItem>
+                            <h2>
+                                <AccordionButton fontWeight="medium" _expanded={{ color: 'white', bg:"brand.100"}}>
+                                    <Box flex='1' textAlign='left'>
+                                        Jam berapa kelas diadakan?
+                                    </Box>
+                                    <AccordionIcon />
+                                </AccordionButton>
+                            </h2>
+                            <AccordionPanel pb={4}>
+                                Di weekday kelas akan diadakan pada jam 17.00 - 20.00 WIB dan di weekend 09.00 - 17.00 WIB. Kamu dapat memilih jadwal kelas kamu sebelum mengambil kelas.
+                            </AccordionPanel>
+                        </AccordionItem>
+                        <AccordionItem>
+                            <h2>
+                                <AccordionButton fontWeight="medium" _expanded={{ color: 'white', bg:"brand.100"}}>
+                                    <Box flex='1' textAlign='left'>
+                                        Benefit apa saja yang saya dapat ketika mengikuti kelas?
+                                    </Box>
+                                    <AccordionIcon />
+                                </AccordionButton>
+                            </h2>
+                            <AccordionPanel pb={4}>
+                                Kamu akan mendapatkan sertifikat, private learning group dan dapat bergabung dengan komunitas murid di Magitech.
                             </AccordionPanel>
                         </AccordionItem>
                     </Accordion>

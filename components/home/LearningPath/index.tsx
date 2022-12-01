@@ -1,4 +1,5 @@
-import { Container, Tabs, TabList, TabPanels, Tab, TabPanel, Heading, Flex, Box, Text, Icon } from "@chakra-ui/react"
+import { Container, Tabs, TabList, TabPanels, Tab, TabPanel, Heading } from "@chakra-ui/react"
+import { WEB_DEVELOPER_LEARNING_PATH } from "../../../data/learningPath"
 import { Timeline } from "./Timeline"
 
 export const LearningPath = () => {
@@ -14,7 +15,7 @@ export const LearningPath = () => {
                 </TabList>
                 <TabPanels>
                     <TabPanel pt={{ base: "16", md: "28" }}>
-                        <Timeline />
+                        <Timeline data={WEB_DEVELOPER_LEARNING_PATH} />
                     </TabPanel>
                     <TabPanel>
                         <p>two!</p>

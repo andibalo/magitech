@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Footer } from '../components/commons'
+import { Footer, WaFab } from '../components/commons'
 import { Faq, FounderMessage, Hero, LearningPath, TargetAudience, TechStack, WhyUs } from '../components/home'
 
 export default function Home() {
@@ -13,6 +13,7 @@ export default function Home() {
       <LearningPath/>
       <FounderMessage/>
       <Faq/>
+      <WaFab/>
       <Footer/>
     </>
   )

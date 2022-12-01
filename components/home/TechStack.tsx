@@ -9,7 +9,7 @@ export const TechStack = () => {
             <Container maxW="container.xl" py="14" >
                 <Heading fontWeight="semibold" mb="5" color="white" fontSize="2xl" as="h3" textAlign={"center"}>Technologies You Will Learn</Heading>
                 <Flex justifyContent="center">
-                    <Box w="100%" maxW={{ base: "35px", md: "550px" }}>
+                    <Box w="100%" maxW={{ base: "400px", md: "550px" }}>
                         <Image
                             src={techStack}
                             placeholder="blur"

@@ -8,7 +8,7 @@ export const Logo = () => {
         <NextLink href={'/'} passHref>
             <Link _hover={{ textDecoration: "none" }}>
                 <Flex alignItems="center">
-                    <Box w="100%" maxW={{ base: "35px", md: "150px" }}>
+                    <Box w="100%" maxW={{ base: "120px", md: "150px" }}>
                         <Image
                             src={logo}
                             placeholder="blur"

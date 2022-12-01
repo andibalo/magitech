@@ -13,9 +13,9 @@ export const Hero = () => {
                     justifyContent={{ base: "center", md: "center" }}
                     flex={"1"}
                     minH="100vh"
-                    pt="40"
+                    pt={{ base: "0", md: "40" }}
                 >
-                    <Flex direction="column" alignItems="center" textAlign="center">
+                    <Flex direction="column" alignItems="center" textAlign="center" position="relative" zIndex="10" >
                         <Heading
                             fontSize="3xl"
                             fontWeight="semibold"
@@ -29,7 +29,7 @@ export const Hero = () => {
                     </Flex>
                 </Stack>
             </Container>
-            <Box w="100%" position="absolute" bottom="0" left="50%" transform="translateX(-50%)" maxW={{ base: "35px", md: "1000px" }}>
+            <Box w="100%" position="absolute" bottom="0" left="50%" transform="translateX(-50%)" maxW={{ base: "60%", md: "55%" }}>
                 <Image
                     src={editor}
                     placeholder="blur"

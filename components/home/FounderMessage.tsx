@@ -8,10 +8,10 @@ export const FounderMessage = () => {
 
     return (
         <Container maxW="container.xl" py="20" >
-            <Flex alignItems="center">
-                <Box flex="0.6">
+            <Flex alignItems="center" flexDirection={{ base: "column", md: "row" }} >
+                <Box flex="0.6" mb={{ base: "14", md: "0" }}>
                     <Box maxW="650px">
-                        <Heading mb="5" fontWeight="semibold" color="black.100" fontSize="2xl" as="h3" >
+                        <Heading textAlign={{base:"center", md:"initial"}} mb="5" fontWeight="semibold" color="black.100" fontSize="2xl" as="h3" >
                             Meet Your <Box as="span" color="brand.100">Founder</Box> & <Box as="span" color="brand.400">Mentor!</Box>
                         </Heading>
                         <Text mb="4" fontSize="lg" >
@@ -27,7 +27,7 @@ export const FounderMessage = () => {
                 </Box>
                 <Box flex="0.4">
                     <Box>
-                        <Box mb="8" mx="auto" w="100%" maxW={{ base: "35px", md: "350px" }}>
+                        <Box mb="8" mx="auto" w="100%" maxW={{ base: "250px", md: "350px" }}>
                             <Image
                                 src={founder}
                                 placeholder="blur"

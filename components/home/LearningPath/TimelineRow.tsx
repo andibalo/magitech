@@ -59,7 +59,7 @@ export const TimelineRow = ({ isEnd = false, isStart = false, data, index }: Tim
                 </Flex>
                 <Flex alignItems="center" justifyContent="space-between">
                     <Text fontWeight="medium">{formatRupiah(price)}</Text>
-                    <Button btnType="ghost">View Syllabus</Button>
+                    <Button btnType="ghost">Lihat Silabus</Button>
                 </Flex>
             </Box>
             <Flex justifyContent="center" flex="1" position="relative" >

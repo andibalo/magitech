@@ -8,6 +8,14 @@ const primaryBtnStyles = {
     }
 };
 
+const secondaryBtnStyles = {
+    backgroundColor: "brand.400",
+    color: "white",
+    _hover: {
+        backgroundColor: "brand.600"
+    }
+};
+
 const outlinePrimaryBtnStyles = {
     backgroundColor: "primary.100",
     color: "white",
@@ -26,6 +34,7 @@ const ghostPrimaryBtnStyles = {
 
 const buttonSxMapper: any = {
     solid: primaryBtnStyles,
+    solidSecondary: secondaryBtnStyles,
     outline: outlinePrimaryBtnStyles,
     ghost: ghostPrimaryBtnStyles
 };

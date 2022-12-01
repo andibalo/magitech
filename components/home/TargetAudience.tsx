@@ -18,7 +18,7 @@ export const TargetAudience = () => {
                             alt="Sma Student Avatar"
                         />
                     </Box>
-                    <Text textAlign="center" fontWeight="medium" fontSize="xl" >SMP/SMA Students</Text>
+                    <Text textAlign="center" fontWeight="medium" fontSize="xl" >Siswa SMP/SMA</Text>
                 </Flex>
                 <Flex flexDirection="column" alignItems="center" mb={{ base: "20", md: "0" }}>
                     <Box mb="5" w="100%" maxW={{ base: "200px" }}>
@@ -28,7 +28,7 @@ export const TargetAudience = () => {
                             alt="University Student Avatar"
                         />
                     </Box>
-                    <Text textAlign="center" fontWeight="medium" fontSize="xl">University Students</Text>
+                    <Text textAlign="center" fontWeight="medium" fontSize="xl">Mahasiswa</Text>
                 </Flex>
                 <Flex flexDirection="column" alignItems="center" >
                     <Box mb="5" w="100%" maxW={{ base: "200px" }}>
@@ -38,7 +38,7 @@ export const TargetAudience = () => {
                             alt="Career Switcher Avatar"
                         />
                     </Box>
-                    <Text textAlign="center" fontWeight="medium" fontSize="xl" >Career Switchers</Text>
+                    <Text textAlign="center" fontWeight="medium" fontSize="xl" >Pengalih Karier</Text>
                 </Flex>
             </Flex>
         </Container>

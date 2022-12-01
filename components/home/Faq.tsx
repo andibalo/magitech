@@ -16,9 +16,9 @@ export const Faq = () => {
                 <Box flex="0.4" pr={{ base: "0", md: "5" }}>
                     <Flex h="300px" bg="brand.500" borderRadius="xl" justifyContent="center" alignItems="center" >
                         <Box>
-                            <Text color="white" fontWeight="medium" fontSize="2xl" mb="3">Consult With Us!</Text>
+                            <Text color="white" fontWeight="medium" fontSize="2xl" mb="3">Konsultasi dengan kami!</Text>
                             <Flex justifyContent="center">
-                                <Button>Contact Us</Button>
+                                <Button btnType="solidSecondary" >Kontak Kami</Button>
                             </Flex>
                         </Box>
                     </Flex>
@@ -27,7 +27,7 @@ export const Faq = () => {
                     <Accordion allowToggle>
                         <AccordionItem>
                             <h2>
-                                <AccordionButton fontWeight="medium" _expanded={{ color: 'white', bg:"brand.100"}}>
+                                <AccordionButton fontWeight="medium" _expanded={{ color: 'white', bg: "brand.100" }}>
                                     <Box flex='1' textAlign='left'>
                                         Saya tidak punya pengetahuan IT sama sekali, apakah saya bisa ikut serta ?
                                     </Box>
@@ -41,7 +41,7 @@ export const Faq = () => {
 
                         <AccordionItem>
                             <h2>
-                                <AccordionButton fontWeight="medium" _expanded={{ color: 'white', bg:"brand.100"}}>
+                                <AccordionButton fontWeight="medium" _expanded={{ color: 'white', bg: "brand.100" }}>
                                     <Box flex='1' textAlign='left'>
                                         Berapakah spek laptop yang baik untuk mengikuti kelas di Magitech ?
                                     </Box>
@@ -54,7 +54,7 @@ export const Faq = () => {
                         </AccordionItem>
                         <AccordionItem>
                             <h2>
-                                <AccordionButton fontWeight="medium" _expanded={{ color: 'white', bg:"brand.100"}}>
+                                <AccordionButton fontWeight="medium" _expanded={{ color: 'white', bg: "brand.100" }}>
                                     <Box flex='1' textAlign='left'>
                                         Bagaimana sistem pembelajaran di Magitech?
                                     </Box>
@@ -68,7 +68,7 @@ export const Faq = () => {
                         </AccordionItem>
                         <AccordionItem>
                             <h2>
-                                <AccordionButton fontWeight="medium" _expanded={{ color: 'white', bg:"brand.100"}}>
+                                <AccordionButton fontWeight="medium" _expanded={{ color: 'white', bg: "brand.100" }}>
                                     <Box flex='1' textAlign='left'>
                                         Berapa kali dalam seminggu kelas diadakan?
                                     </Box>
@@ -81,7 +81,7 @@ export const Faq = () => {
                         </AccordionItem>
                         <AccordionItem>
                             <h2>
-                                <AccordionButton fontWeight="medium" _expanded={{ color: 'white', bg:"brand.100"}}>
+                                <AccordionButton fontWeight="medium" _expanded={{ color: 'white', bg: "brand.100" }}>
                                     <Box flex='1' textAlign='left'>
                                         Jam berapa kelas diadakan?
                                     </Box>
@@ -94,7 +94,7 @@ export const Faq = () => {
                         </AccordionItem>
                         <AccordionItem>
                             <h2>
-                                <AccordionButton fontWeight="medium" _expanded={{ color: 'white', bg:"brand.100"}}>
+                                <AccordionButton fontWeight="medium" _expanded={{ color: 'white', bg: "brand.100" }}>
                                     <Box flex='1' textAlign='left'>
                                         Benefit apa saja yang saya dapat ketika mengikuti kelas?
                                     </Box>

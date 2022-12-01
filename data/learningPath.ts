@@ -87,7 +87,7 @@ export const WEB_DEVELOPER_LEARNING_PATH: CourseInfo[] = [
         totalHours: "16",
         totalSessions: "8",
         price: 1500000,
-        description: `Siswa akan belajar best practices dan alur pengembangan website menggunakan HTML, CSS, Javascript, jQuery dan Boostrap.`,
+        description: `Siswa akan belajar syntax dan fitur-fitur React serta pengembang website menggunakan React.`,
         modules: [
             {
                 title: "Introduction To React",
@@ -119,6 +119,56 @@ export const WEB_DEVELOPER_LEARNING_PATH: CourseInfo[] = [
             },
             {
                 title: "Final Project II: Todo List",
+                description: ""
+            },
+        ]
+    },
+    {
+
+        title: "Advanced React",
+        totalHours: "20",
+        totalSessions: "10",
+        price: 2000000,
+        description: `Siswa akan belajar cara optimasi aplikasi React, state management menggunakan Context dan Redux serta pengembangan website menggunakan framework Next.js dan Firebase.`,
+        modules: [
+            {
+                title: "React Optimization",
+                description: ""
+            },
+            {
+                title: "State Management with React Context",
+                description: ""
+            },
+            {
+                title: "Introduction to Redux",
+                description: ""
+            },
+            {
+                title: "RTK-Query",
+                description: ""
+            },
+            {
+                title: "Introduction to Next.js",
+                description: ""
+            },
+            {
+                title: "Next.js Advanced",
+                description: ""
+            },
+            {
+                title: "Final Project: Hotel App",
+                description: ""
+            },
+            {
+                title: "Final Project II: Hotel App",
+                description: ""
+            },
+            {
+                title: "Final Project III: Hotel App",
+                description: ""
+            },
+            {
+                title: "Final Project IV: Hotel App",
                 description: ""
             },
         ]

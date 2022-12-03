@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import { Footer, WaFab } from '../components/commons'
 import { Faq, FounderMessage, Hero, LearningPath, TargetAudience, TechStack, WhyUs } from '../components/home'
 

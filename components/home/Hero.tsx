@@ -26,7 +26,7 @@ export const Hero = () => {
                                 color="black.100">Learn From Industry <Box as="span" color="brand.100">Professionals!</Box>
                             </Heading>
                             <Text mb="8" maxW="500px" textAlign="center">
-                                Magitech adalah platform pembelajaran dengan Web, Mobile & Backend Development yang diajarkan oleh mentor dengan pengalaman industri
+                                Magitech adalah platform pembelajaran Web, Mobile & Backend Development yang diajarkan oleh mentor dengan pengalaman industri
                             </Text>
                             <ScrollLink to="learningPath" smooth={true} duration={500}>
                                 <Button>View Learning Path</Button>

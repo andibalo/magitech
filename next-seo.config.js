@@ -1,13 +1,13 @@
 const SEO = {
     openGraph: {
         url: "https://www.rebond.id/",
-        title: "Play Truth or Truth game with your friends! | Rebond",
+        title: "Belajar Coding dan Development dari Industri Profesional",
         description:
-            "Rebond adalah permainan truth or truth yang menyediakan 100+ pertanyaan dan topic biar waktu ngobrol kamu dengan teman, keluarga dan pacar (ato calon pacar) lebih asik! Dan kamu bisa mainkan sekarang online dan secara gratis!",
+            "Magitech adalah platform pembelajaran Web, Mobile & Backend Development yang diajarkan oleh mentor dengan pengalaman industri",
         images: [
             {
-                url: "https://www.rebond.id/og.png",
-                alt: "Rebond",
+                url: "https://www.magitech.id/og.png",
+                alt: "Magitech",
                 type: "image/png",
             },
         ],

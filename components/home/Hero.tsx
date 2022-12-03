@@ -2,6 +2,9 @@ import { Box, Heading, Text, Stack, Flex, Container } from "@chakra-ui/react";
 import Image from "next/image";
 import { Button, Navbar } from "../commons";
 import editor from "../../public/editor.png";
+import {
+    Link as ScrollLink,
+} from "react-scroll";
 
 export const Hero = () => {
     return (
@@ -25,7 +28,9 @@ export const Hero = () => {
                         <Text mb="8" maxW="500px" textAlign="center">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
                         </Text>
-                        <Button>View Learning Path</Button>
+                        <ScrollLink to="learningPath" smooth={true} duration={500}>
+                            <Button>View Learning Path</Button>
+                        </ScrollLink>
                     </Flex>
                 </Stack>
             </Container>

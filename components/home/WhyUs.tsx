@@ -15,7 +15,7 @@ export const WhyUs = () => {
                             </Flex>
                         </Box>
                         <Box>
-                            <Heading mb="1" fontWeight="medium" color="black.100" fontSize="xl" as="h5" >Experienced Mentors</Heading>
+                            <Heading mb="1" fontWeight="medium" color="black.100" fontSize="xl" as="h5" >Mentor Berpengalaman</Heading>
                             <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.</Text>
                         </Box>
                     </Flex>
@@ -28,7 +28,7 @@ export const WhyUs = () => {
                             </Flex>
                         </Box>
                         <Box>
-                            <Heading mb="1" fontWeight="medium" color="black.100" fontSize="xl" as="h5" >Active Mentoring</Heading>
+                            <Heading mb="1" fontWeight="medium" color="black.100" fontSize="xl" as="h5" >Mentoring Aktif</Heading>
                             <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.</Text>
                         </Box>
                     </Flex>
@@ -41,7 +41,7 @@ export const WhyUs = () => {
                             </Flex>
                         </Box>
                         <Box>
-                            <Heading mb="1" fontWeight="medium" color="black.100" fontSize="xl" as="h5" >Student Community</Heading>
+                            <Heading mb="1" fontWeight="medium" color="black.100" fontSize="xl" as="h5" >Komunitas Murid</Heading>
                             <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.</Text>
                         </Box>
                     </Flex>
@@ -54,7 +54,7 @@ export const WhyUs = () => {
                             </Flex>
                         </Box>
                         <Box>
-                            <Heading mb="1" fontWeight="medium" color="black.100" fontSize="xl" as="h5" >Affordable Price</Heading>
+                            <Heading mb="1" fontWeight="medium" color="black.100" fontSize="xl" as="h5" >Harga Terjangkau</Heading>
                             <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.</Text>
                         </Box>
                     </Flex>

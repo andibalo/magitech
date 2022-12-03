@@ -4,7 +4,9 @@ import {
     AccordionButton,
     AccordionPanel,
     AccordionIcon,
+    Link,
 } from "@chakra-ui/react"
+import { WA_LINK } from "../../constants/constants";
 import { Button } from "../commons";
 
 
@@ -18,7 +20,9 @@ export const Faq = () => {
                         <Box>
                             <Text color="white" fontWeight="medium" fontSize="2xl" mb="3">Konsultasi dengan kami!</Text>
                             <Flex justifyContent="center">
-                                <Button btnType="solidSecondary" >Kontak Kami</Button>
+                                <Link href={WA_LINK} target="_blank" >
+                                    <Button btnType="solidSecondary" >Kontak Kami</Button>
+                                </Link>
                             </Flex>
                         </Box>
                     </Flex>

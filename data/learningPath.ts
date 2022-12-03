@@ -60,7 +60,7 @@ export const WEB_DEVELOPER_LEARNING_PATH: CourseInfo[] = [
                 description: ""
             },
             {
-                title: "Mini Project: Landing Page (HTML + CSS)",
+                title: "Mini Project: Landing Page",
                 description: ""
             },
             {
@@ -72,11 +72,11 @@ export const WEB_DEVELOPER_LEARNING_PATH: CourseInfo[] = [
                 description: ""
             },
             {
-                title: "Final Project: Company Profile (Boostrap + HTML + CSS + jQuery)",
+                title: "Final Project: Company Profile",
                 description: ""
             },
             {
-                title: "Final Project II: Company Profile (Boostrap + HTML + CSS + jQuery)",
+                title: "Final Project II: Company Profile",
                 description: ""
             },
         ]

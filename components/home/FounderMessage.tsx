@@ -1,7 +1,8 @@
-import { Container, Box, Heading, Flex, Text, SimpleGrid, Icon } from "@chakra-ui/react"
+import { Container, Box, Heading, Flex, Text, Link, Icon } from "@chakra-ui/react"
 import { BsLinkedin } from 'react-icons/bs'
 import Image from "next/image";
 import founder from "../../public/founder.png";
+import { FOUNDER_LINKEDIN_LINK } from "../../constants/constants";
 
 
 export const FounderMessage = () => {
@@ -11,7 +12,7 @@ export const FounderMessage = () => {
             <Flex alignItems="center" flexDirection={{ base: "column", md: "row" }} >
                 <Box flex="0.6" mb={{ base: "14", md: "0" }}>
                     <Box maxW="650px">
-                        <Heading textAlign={{base:"center", md:"initial"}} mb="5" fontWeight="semibold" color="black.100" fontSize="2xl" as="h3" >
+                        <Heading textAlign={{ base: "center", md: "initial" }} mb="5" fontWeight="semibold" color="black.100" fontSize="2xl" as="h3" >
                             Meet Your <Box as="span" color="brand.100">Founder</Box> & <Box as="span" color="brand.400">Mentor!</Box>
                         </Heading>
                         <Text mb="4" fontSize="lg" >
@@ -35,7 +36,9 @@ export const FounderMessage = () => {
                             />
                         </Box>
                         <Flex flexDirection="column" alignItems="center">
-                            <Icon mb="2" as={BsLinkedin} w={6} h={6} />
+                            <Link href={FOUNDER_LINKEDIN_LINK} target="_blank" >
+                                <Icon mb="2" as={BsLinkedin} w={6} h={6} />
+                            </Link>
                             <Heading mb="1" fontWeight="medium" color="black.100" fontSize="lg" as="h5" >Andi Usman Balo</Heading>
                             <Text>Software Engineer at eFishery</Text>
                             <Text>{"(ex-OVO, ex-Ruangguru)"}</Text>

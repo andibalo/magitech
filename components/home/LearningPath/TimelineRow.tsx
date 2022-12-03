@@ -8,9 +8,10 @@ interface TimelineRowProps {
     isStart?: boolean
     data?: CourseInfo
     index?: number
+    onViewSyllabusClick: (data: CourseModule[], moduleTitle: string) => void
 }
 
-export const TimelineRow = ({ isEnd = false, isStart = false, data, index }: TimelineRowProps) => {
+export const TimelineRow = ({ isEnd = false, isStart = false, data, index, onViewSyllabusClick }: TimelineRowProps) => {
 
     if (isStart) {
         return (
@@ -59,7 +60,7 @@ export const TimelineRow = ({ isEnd = false, isStart = false, data, index }: Tim
                 </Flex>
                 <Flex alignItems="center" justifyContent="space-between">
                     <Text fontWeight="medium">{formatRupiah(price)}</Text>
-                    <Button btnType="ghost">Lihat Silabus</Button>
+                    <Button btnType="ghost" onClick={() => onViewSyllabusClick(modules, title)} >Lihat Silabus</Button>
                 </Flex>
             </Box>
             <Flex justifyContent="center" flex="1" position="relative" >

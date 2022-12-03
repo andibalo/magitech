@@ -16,7 +16,7 @@ export const WhyUs = () => {
                         </Box>
                         <Box>
                             <Heading mb="1" fontWeight="medium" color="black.100" fontSize="xl" as="h5" >Mentor Berpengalaman</Heading>
-                            <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.</Text>
+                            <Text>Kamu akan diajari langsung oleh mentor-mentor yang expert di bidangnya dengan pengalaman industri</Text>
                         </Box>
                     </Flex>
                 </Box>
@@ -29,7 +29,7 @@ export const WhyUs = () => {
                         </Box>
                         <Box>
                             <Heading mb="1" fontWeight="medium" color="black.100" fontSize="xl" as="h5" >Mentoring Aktif</Heading>
-                            <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.</Text>
+                            <Text>Selain mengajar, mentor kamu akan me-monitor progress kamu dan membimbing kamu agar kamu bisa mencapai goals pembelajaran kamu</Text>
                         </Box>
                     </Flex>
                 </Box>
@@ -42,7 +42,7 @@ export const WhyUs = () => {
                         </Box>
                         <Box>
                             <Heading mb="1" fontWeight="medium" color="black.100" fontSize="xl" as="h5" >Komunitas Murid</Heading>
-                            <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.</Text>
+                            <Text>Di Magitech kita percaya dengan Work Hard, Play Hard. Dengan komunitas murid di Magitech kamu dapat bermain, belajar dan bertemu dengan murid-murid lainnya.</Text>
                         </Box>
                     </Flex>
                 </Box>
@@ -55,7 +55,7 @@ export const WhyUs = () => {
                         </Box>
                         <Box>
                             <Heading mb="1" fontWeight="medium" color="black.100" fontSize="xl" as="h5" >Harga Terjangkau</Heading>
-                            <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.</Text>
+                            <Text>Kami percaya mengejar ilmu dan passion kamu tidak harus memerlukan biaya yang mahal.</Text>
                         </Box>
                     </Flex>
                 </Box>

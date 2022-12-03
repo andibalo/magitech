@@ -1,5 +1,5 @@
 import { Heading, Flex, Box, Text, Icon } from "@chakra-ui/react"
-import { MdQueryBuilder, MdVideocam, MdShowChart } from 'react-icons/md'
+import { MdQueryBuilder, MdVideocam } from 'react-icons/md'
 import { formatRupiah } from "../../../utils/utils"
 import { Button } from "../../commons"
 
@@ -35,7 +35,7 @@ export const TimelineRow = ({ isEnd = false, isStart = false, data, index, onVie
                 <Box flex="1" p={{ base: "0", md: "5" }} />
                 <Flex justifyContent="center" flex="1" position="relative">
                     <Flex w="35px" h="35px" position="absolute" top="100%" left="50%" transform="translateY(-50%) translateX(-50%)" zIndex="2" bg={colors[tabIndex]} borderRadius="50%" p="3" />
-                    <Box h="100px" w="3px" bg={colors[tabIndex]}/>
+                    <Box h="100px" w="3px" bg={colors[tabIndex]} />
                 </Flex>
                 <Box flex="1" />
             </Flex>

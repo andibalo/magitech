@@ -8,7 +8,7 @@ import {
     useDisclosure
 } from "@chakra-ui/react"
 import { useState } from "react"
-import { BACKEND_DEVELOPER_LEARNING_PATH, WEB_DEVELOPER_LEARNING_PATH } from "../../../data/learningPath"
+import { BACKEND_DEVELOPER_LEARNING_PATH, WEB_DEVELOPER_LEARNING_PATH, MOBILE_DEVELOPER_LEARNING_PATH } from "../../../data/learningPath"
 import { Timeline } from "./Timeline"
 import { Element } from "react-scroll";
 
@@ -40,7 +40,7 @@ export const LearningPath = () => {
                             <Timeline tabIndex={tabIndex} data={WEB_DEVELOPER_LEARNING_PATH} onViewSyllabusClick={onClickViewSyllabus} />
                         </TabPanel>
                         <TabPanel pt={{ base: "16", md: "28" }}>
-                            <Timeline tabIndex={tabIndex} data={WEB_DEVELOPER_LEARNING_PATH} onViewSyllabusClick={onClickViewSyllabus} />
+                            <Timeline tabIndex={tabIndex} data={MOBILE_DEVELOPER_LEARNING_PATH} onViewSyllabusClick={onClickViewSyllabus} />
                         </TabPanel>
                         <TabPanel pt={{ base: "16", md: "28" }}>
                             <Timeline tabIndex={tabIndex} data={BACKEND_DEVELOPER_LEARNING_PATH} onViewSyllabusClick={onClickViewSyllabus} />

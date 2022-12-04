@@ -16,9 +16,8 @@ export const FounderMessage = () => {
                             Meet Your <Box as="span" color="brand.100">Founder</Box> & <Box as="span" color="brand.400">Mentor!</Box>
                         </Heading>
                         <Text mb="4" fontSize="lg" >
-                            “ Hey everyone! If you've come this for, thanks for checking out Magitech. I started Magitech because when I first got into software engineering I was really overwhelmed. 
-                            It is a very broad field with a big learning curve for beginners, and with no mentors to help me made my learning journey really hard. However, I still achieved my goals I set out for 
-                            despite a lot of trial and errors. Hence, I decided to create Magitech in hopes of helping aspiring software engineers achieve their goals. Cheers! "
+                            “ Hi everyone! If you've come this for, thanks for checking out Magitech. I started Magitech because when I started learning software engineering, I was very overwhelmed.
+                            It is a very broad field with a big learning curve and I had no mentors to guide me which made my learning journey really hard. And after being in the field for a few years I decided to create Magitech in hopes of guiding aspiring software engineers to achieve their goals."
                         </Text>
                         <Text fontSize="lg">
                             Wishing you all the best,

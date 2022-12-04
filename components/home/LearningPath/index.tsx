@@ -47,7 +47,7 @@ export const LearningPath = () => {
                         </TabPanel>
                     </TabPanels>
                 </Tabs>
-                <Modal isOpen={isOpen} onClose={onClose} size="lg">
+                <Modal isOpen={isOpen} onClose={onClose} size="lg" isCentered  scrollBehavior="inside" >
                     <ModalOverlay />
                     <ModalContent>
                         <ModalHeader>{moduleTitle}</ModalHeader>
@@ -57,7 +57,7 @@ export const LearningPath = () => {
                                 modules.length > 0 && modules.map((module, index) => {
                                     return (
                                         <Flex key={module.title} mb="5">
-                                            <Text w="20px">{index + 1}.</Text>
+                                            <Text w="30px">{index + 1}.</Text>
                                             <Box>
                                                 <Text fontWeight="semibold">{module.title}</Text>
                                                 <Text>{module.description}</Text>

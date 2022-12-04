@@ -18,7 +18,7 @@ export const TimelineRow = ({ isEnd = false, isStart = false, data, index, onVie
 
     if (isStart) {
         return (
-            <Flex alignItems="center" >
+            <Flex display={{ base: "none", md: "flex" }} alignItems="center" >
                 <Box flex="1" p={{ base: "0", md: "5" }} />
                 <Flex justifyContent="center" flex="1" position="relative">
                     <Flex w="35px" h="35px" position="absolute" top="0%" left="50%" transform="translateY(-50%) translateX(-50%)" zIndex="2" bg={colors[tabIndex]} borderRadius="50%" p="3" />
@@ -67,10 +67,10 @@ export const TimelineRow = ({ isEnd = false, isStart = false, data, index, onVie
                 </Flex>
             </Box>
             <Flex justifyContent="center" flex="1" position="relative" >
-                <Flex w="35px" h="35px" position="absolute" top="50%" left="50%" transform="translateY(-50%) translateX(-50%)" zIndex="2" justifyContent="center" alignItems="center" bg={colors[tabIndex]} borderRadius="50%" p="3" >
+                <Flex w="35px" h="35px" position="absolute" top={{ base: index! === 0 ? "0" : "60%", md: "50%" }} left="50%" transform="translateY(-50%) translateX(-50%)" zIndex="2" justifyContent="center" alignItems="center" bg={colors[tabIndex]} borderRadius="50%" p="3" >
                     <Text fontWeight="medium" color="white">{index! + 1}</Text>
-                </Flex >
-                <Box visibility={{ base: "initial", md: "initial" }} h={{ base: "150px", md: "250px" }} mb={{ base: "3", md: "0" }} w="3px" bg={colors[tabIndex]} />
+                </Flex>
+                <Box h={{ base: index! === 0 ? "75px" : "150px", md: "250px" }} mb={{ base: "3", md: "0" }} w="3px" bg={colors[tabIndex]} />
             </Flex>
             <Box flex="1">
                 <Text textAlign={{ base: "center", md: "initial" }} mb={{ base: "5", md: "0" }}>
